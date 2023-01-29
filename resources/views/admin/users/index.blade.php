@@ -114,6 +114,7 @@
       @endforeach
     </tbody>
   </table>
+  {{ $users->links() }}
 </section>
 <!-- /.content -->
 @endsection
